@@ -203,3 +203,23 @@ background-size: cover;
         line-height: 45px;
     }
 }
+
+@proplumbblue: #40a2ff;
+
+b{
+    color:@proplumbblue;
+}
+
+.btn-lg{
+    background-color: @proplumbblue;
+    border: 1px transparent;
+    span{
+        color:white;
+    }
+    &:hover{
+        color: black;
+        span{
+            color: black;
+        }
+    }
+}
