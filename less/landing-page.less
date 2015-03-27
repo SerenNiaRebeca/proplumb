@@ -41,7 +41,7 @@ h6 {
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
+    padding-top: 0;
     padding-bottom: 20%;
 }
 
@@ -95,6 +95,7 @@ h6 {
 .content-section-a {
     padding: 50px 0;
     background-color: #f8f8f8;
+    border-top:1px solid #e7e7e7;
 }
 
 .content-section-b {
@@ -183,10 +184,10 @@ p.copyright {
 
 .intro-header {
 padding-top: 50px;
-padding-bottom: 50px;
+padding-bottom: 30px;
 text-align: center;
 color: #f8f8f8;
-background: url(../img/plumbing-blueprints-opacity.jpg) no-repeat center center;
+background: url(../img/plumbing-blueprints-opacity-80.jpg) no-repeat center center;
 background-size: cover;
 }
 
@@ -196,7 +197,7 @@ background-size: cover;
     padding-bottom: 0;
     & >h2{
         text-shadow: none;
-        font-size:2em;
+        font-size:1.5em;
         color:black;
         width: 650px;
         margin: 0 auto;
@@ -235,4 +236,18 @@ b{
         background: url(../img/flame-picture-boiler-service-basingstoke-1.jpg) no-repeat;
         background-size:cover;
     }
+}
+
+.navbar-contact{
+
+    li {
+        float: none;
+        a{
+            padding: 5px 5px;
+        }
+    }
+}
+
+.navbar-default .navbar-nav>li>a{
+    font-size:18px;
 }
